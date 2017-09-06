@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.navbar li:hover{
+	color: red;
+	background-color: #fff !important;
+	border: 1px solid red !important;
+	border-radius: 20%;
+}
+
+#sect1{
+	background-image: url(../img/section_one.jpg);
+		background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	
+	
+}
+
+.padded{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#startbtn{
+	
+	background-color: red;
+}
+
+#sect2{
+	background-color: blue;
+	
+}
+
+.backgroundimage{
+	background: top;	
+	background-image: url(../img/yoga.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	
+}
+
+.backgroundimage2{
+	background: top;
+	background-image: url(../img/bodybuilding.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;	
+	height: 400px;	
+}
+
+.backgroundimage3{
+	background: top;
+	background-image: url(../img/fitness.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;	
+	height: 400px;	
+}
+
+.backgroundimage4{
+	background: right;
+	background-image: url(../img/boxing.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;	
+	height: 400px;	
+}
+
+#choose{
+	background: right;
+	background-image: url(../img/choose_us.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;	
+		
+}
+
+.title{
+	border-bottom: 5px solid red;
+	margin-left: 5px;
+}
+
+
+figcaption{
+	background-color: lightgray;
+	width: 280px;
+	padding-top: 1px;
+	padding-bottom: 2px;
+	
+}
+
+.ss{
+	position: relative;
+	left: 80px;
+	top: 150px;
+}
+
+.centered{
+	position: relative;
+	left: 120px;
+}
+#choose3 {
+	background-color: lightgray;
+	padding-bottom: 120px;
+}
+
+#choose2{
+	background-color: lightgray;
+	padding-bottom: 120px;
+}
+  
+#galeria figure{
+	
+}
+#galeria img{
+	transition: ease-in-out .5s all;
+}
+#galeria img:hover{
+	
+	transform: scale(2,2);
+	border: 5px solid black;
+}
+
+#end{
+	background: right;
+	background-image: url(../img/gym_room.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
